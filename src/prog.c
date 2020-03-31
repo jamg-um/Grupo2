@@ -8,10 +8,12 @@ int es_par(int num){
 }
 
 int main(void){
-	printf("¿Es 32 un número par?\n");
-	if(es_par(32))
-		printf("Yes\n");
+	printf("Escribe un numero: ");
+	int n;
+	scanf("%d", &n);
+	if(es_par(n))
+		printf("Es par!\n");
 	else
-		printf("No\n");
+		printf("No es par!\n");
 	return 0;
 }
