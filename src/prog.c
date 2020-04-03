@@ -7,6 +7,16 @@ int es_par(int num){
 		return 0;
 }
 
+void hola_mundo()
+{
+	printf("Hello World!\n");
+}
+
+void llenar_pila()
+{
+	llenar_pila();
+}
+
 int main(void){
 	printf("¿Es 32 un número par?\n");
 	if(es_par(32))
